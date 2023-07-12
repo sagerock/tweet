@@ -8,7 +8,7 @@ import re
 # Import from 3rd party libraries
 import streamlit as st
 import streamlit.components.v1 as components
-import streamlit_analytics
+# import streamlit_analytics
 
 # Import modules
 import tweets as twe
