@@ -8,13 +8,13 @@ import streamlit as st
 import tweepy
 
 # Assign credentials from environment variable or streamlit secrets dict
-consumer_key = os.getenv("TWITTER_CONSUMER_KEY") or st.secrets["TWITTER_CONSUMER_KEY"]
+consumer_key = os.getenv("TWITTER_CONSUMER_KEY") or st.secrets["API_KEYS"]["TWITTER_CONSUMER_KEY"]
 consumer_secret = (
-    os.getenv("TWITTER_CONSUMER_SECRET") or st.secrets["TWITTER_CONSUMER_SECRET"]
+    os.getenv("TWITTER_CONSUMER_SECRET") or st.secrets["API_KEYS"]["TWITTER_CONSUMER_SECRET"]
 )
-access_key = os.getenv("TWITTER_ACCESS_KEY") or st.secrets["TWITTER_ACCESS_KEY"]
+access_key = os.getenv("TWITTER_ACCESS_KEY") or st.secrets["API_KEYS"]["TWITTER_ACCESS_KEY"]
 access_secret = (
-    os.getenv("TWITTER_ACCESS_SECRET") or st.secrets["TWITTER_ACCESS_SECRET"]
+    os.getenv("TWITTER_ACCESS_SECRET") or st.secrets["API_KEYS"]["TWITTER_ACCESS_SECRET"]
 )
 
 
