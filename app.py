@@ -132,8 +132,7 @@ st.write(
 streamlit_analytics.start_tracking()
 st.title("Generate Tweets")
 st.markdown(
-    "This mini-app generates Tweets using OpenAI's [GPTs](https://beta.openai.com/docs/models/overview) for texts and [DALL·E](https://beta.openai.com/docs/guides/images) for images. You can find the code on [GitHub](https://github.com/kinosal/tweet) and the author on [Twitter](https://twitter.com/kinosal)."
-)
+    "Use this AI bot to generate tweets and AI created images."
 
 topic = st.text_input(label="Topic (or hashtag)", placeholder="AI")
 mood = st.text_input(
