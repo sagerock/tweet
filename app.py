@@ -132,7 +132,8 @@ st.write(
 streamlit_analytics.start_tracking()
 st.title("Generate Tweets")
 st.markdown(
-    "Use this AI bot to generate tweets and AI created images."
+    "Use this bot to create tweets and AI generated images."
+)
 
 topic = st.text_input(label="Topic (or hashtag)", placeholder="AI")
 mood = st.text_input(
