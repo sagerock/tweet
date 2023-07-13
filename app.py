@@ -173,7 +173,8 @@ if st.session_state.tweet:
     with col1:
         components.html(
             f"""
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="{st.session_state.tweet}\n - Tweet generated via" data-url="https://tweets.streamlit.app" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="{st.session_state.tweet}\n
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             """,
             height=45,
         )
